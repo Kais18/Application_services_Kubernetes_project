@@ -1,5 +1,15 @@
 name: project actions
-on: workflow_dispatch
+on:
+  push:
+    branches:
+        - main
+    paths:
+        - kubernetes/**
+  pull_request:
+    branches:
+        - main
+    paths:
+        - kubernetes/**
 env:
   AWS_REGION: us-east-1
   ECR_REPOSITORY: application
