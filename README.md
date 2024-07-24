@@ -5,7 +5,7 @@ Any changes commited to main branch will be detected and triggered by Git Action
 
 ![Architecture Diagram](gitaction_dark.png)
 
-**Complete Services Used**:
+# **Complete Services Used**:
 
 
 - AWS EKS (Elastic Kubernetes Services)
